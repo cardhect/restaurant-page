@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Hack-Reg';
+    src: url('./Hack-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+body{
+    background-image: url(https://assets.simpleviewcms.com/simpleview/image/fetch/c_limit,h_1200,q_75,w_1200/https://media.newmindmedia.com/TellUs/image/%3Ffile%3DNY-2016226_OS_N246_1015791480.jpg%26dh%3D533%26dw%3D800%26t%3D4);
+    background-repeat: no-repeat;
+    margin: 0%;
+    background-position: center;
+    background-size: cover; 
+}
+
+h1 {
+    color: aliceblue;
+    font-family: 'Hack-Reg';
+}
+
+h4 {
+    color: bisque;
+    font-family: 'Hack-Reg';
+}
+
+.nav-bar {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-items {
+    margin-right: 5%;
+    font-family: 'Hack-Reg';
+}
+
+.hide {
+    display: none;
+}
