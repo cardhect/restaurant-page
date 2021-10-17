@@ -1,2 +1,2 @@
 # DEL MAR Restaurant
-Under Construction
+Basic site.
