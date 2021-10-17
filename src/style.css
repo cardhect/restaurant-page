@@ -93,4 +93,12 @@ ul {
     justify-content: center;
 }
 
-
+/* Contact */
+#contact {
+    background-color: cadetblue;
+    text-align: center;
+    margin: 10%;
+    color: white;
+    font-family: 'Hack-Reg';
+    padding: 10px;
+}

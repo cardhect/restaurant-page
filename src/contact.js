@@ -1,22 +1,18 @@
 export default function contactLoad() {
     const content = document.getElementById('content');
-    const div = document.createElement('div')
-    const ul = document.createElement('ul');
-
+    const div = document.createElement('div');
+    const desc = document.createElement('div');
+    const h1 = document.createElement('h1');
+    
     div.setAttribute('id','contact');
     content.appendChild(div);
-    div.appendChild(ul);   
+    div.append(h1);
+    div.append(desc);
+    h1.textContent = 'Contact';
+    desc.textContent = 'Mon - Sun 8am-9pm 912-212-4425'
+    
 
-    let menuItems = ['TEST!!! Rolls','Sushi Rolls','Sea Urchin','Oysters'];
 
-    for (let i = 0; i < menuItems.length; i++) {
-        const li = document.createElement('li');
-        li.classList.add('menu-item');
-        li.textContent = menuItems[i];
-        ul.appendChild(li);
-        
-    }
- 
    
    
 
