@@ -5,36 +5,92 @@
     font-style: normal;
   }
 
+/* home CSS */
 body{
-    background-image: url(https://assets.simpleviewcms.com/simpleview/image/fetch/c_limit,h_1200,q_75,w_1200/https://media.newmindmedia.com/TellUs/image/%3Ffile%3DNY-2016226_OS_N246_1015791480.jpg%26dh%3D533%26dw%3D800%26t%3D4);
+    background-image: url(/src/img/restaurant.png);
     background-repeat: no-repeat;
     margin: 0%;
     background-position: center;
     background-size: cover; 
+    
 }
 
-h1 {
-    color: aliceblue;
+#home {
+    margin: 10%;
+
+}
+
+#home-head {
+    color: rgb(255, 255, 255);
     font-family: 'Hack-Reg';
+    text-align: center;
+    background-color: cadetblue;
+    width: 100;
+
 }
 
 h4 {
-    color: bisque;
+    color: rgb(255, 255, 255);
     font-family: 'Hack-Reg';
+    background-color: cadetblue;
+    padding: 2%;
 }
 
+/* Nav Bar CSS */
 .nav-bar {
     background-color: cadetblue;
     display: flex;
     justify-content: center;
-
+    padding: 1%;
 }
 
 .nav-items {
     margin-right: 5%;
     font-family: 'Hack-Reg';
+    color: white;
+}
+
+.nav-items:hover {
+    color: rgb(25, 80, 90);
+    cursor: pointer;
 }
 
 .hide {
     display: none;
 }
+
+/* Menu CSS */
+#menu-header {
+    text-align: center;
+    font-family: 'Hack-Reg';
+    color: white;
+    
+}
+
+.menu-item {
+    color: white;
+    flex: auto;
+    margin: 10px;
+}
+
+.item-desc {
+    background-color: rgb(37, 139, 143);
+    width: 300px;
+    margin: 0;
+    font-family: 'Hack-Reg';
+}
+
+img {
+    width:300px; /* you can use % */
+    height: 300px;
+    flex: 1 0 33%; 
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
